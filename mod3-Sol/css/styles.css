@@ -1,0 +1,80 @@
+
+/*HEADER*/
+#header-nav{
+	background-color: #A9A9A9;
+	/*height:90px;*/
+  border-radius: 0;
+  border:0;
+ border:black 2px solid;
+}
+.navbar-brand a{
+	text-decoration: none;
+}
+.navbar-brand h1{
+	color: black;
+    font-style: bold;
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 0;
+}
+.navbar-toggle{
+  margin-top: 30px;
+  border: 1px black solid;
+}
+#nav-list {
+  margin-top: 5px;
+  font-size: 1.4em;
+  border:black 1px solid;
+  border-color: black;
+  overflow: none;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+li{
+  border-bottom: black 2px solid;
+  display: block;
+}
+
+
+/*Body*/
+.text-center{
+  color: black;
+  font-style: bold;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 1.8em;
+  display: block;
+}
+
+.container .row {
+  background-color: #A9A9A9;
+  height: 1000px;
+  margin-top: 20px;
+}
+.container .row span{
+  margin-top: 15px;
+}
+
+.container .row p{
+  margin-top: 15px;
+  font-size: 1.6em;
+  font-style: bold;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* For small and XS devices*/
+@media (max-width: 767px){
+  #header-nav{
+   /* height:74px;*/
+  }
+  #collapsable-nav{
+  border-color: gray;
+  background: white;
+  }
+}
